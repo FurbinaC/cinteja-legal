@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CinTeja — Centro Legal, Privacidad y Términos de Uso</title>
+  <meta name="description" content="Política de Privacidad, Términos y Condiciones de Uso, Normas de la Comunidad y Solicitud de Eliminación de Cuenta de la aplicación móvil CinTeja." />
+
+  <!-- Bootstrap 5.3 CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --cinteja-primary: #E91E63;
+      --cinteja-dark: #C2185B;
+      --cinteja-light: #F8BBD0;
+      --cinteja-accent: #FF5252;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    section[id] {
+      scroll-margin-top: 88px;
+    }
+
+    .bg-cinteja-gradient {
+      background: linear-gradient(135deg, var(--cinteja-dark) 0%, var(--cinteja-primary) 100%);
+    }
+
+    .text-cinteja {
+      color: var(--cinteja-primary) !important;
+    }
+
+    .btn-cinteja {
+      background-color: var(--cinteja-primary);
+      border-color: var(--cinteja-primary);
+      color: #fff;
+    }
+
+    .btn-cinteja:hover,
+    .btn-cinteja:focus {
+      background-color: var(--cinteja-dark);
+      border-color: var(--cinteja-dark);
+      color: #fff;
+    }
+
+    .badge-cinteja {
+      background-color: rgba(233, 30, 99, 0.14);
+      color: var(--cinteja-primary);
+      border: 1px solid rgba(233, 30, 99, 0.3);
+    }
+
+    .legal-card {
+      border-radius: 1rem;
+      border-color: var(--bs-border-color-translucent);
+    }
+
+    .section-divider {
+      width: 48px;
+      height: 4px;
+      border-radius: 2px;
+      background: var(--cinteja-primary);
+    }
+
+    .nav-link:hover {
+      color: var(--cinteja-primary) !important;
+    }
+
+    .tmdb-box {
+      border-left: 4px solid var(--cinteja-primary);
+    }
+  </style>
+</head>
+<body class="bg-body-tertiary">
+
+  <!-- Barra de navegación fija -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-body border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#inicio">
+        <span class="d-inline-flex align-items-center justify-content-center rounded-3 bg-cinteja-gradient text-white" style="width: 34px; height: 34px;">
+          <i class="bi bi-film"></i>
+        </span>
+        <span>CinTeja <span class="fw-normal text-body-secondary fs-6">Legal</span></span>
+      </a>
+
+      <div class="d-flex align-items-center gap-2 order-lg-3">
+        <button id="themeToggle" class="btn btn-outline-secondary btn-sm rounded-pill px-3" type="button" aria-label="Cambiar tema">
+          <i id="themeIcon" class="bi bi-moon-stars"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#legalNav" aria-controls="legalNav" aria-expanded="false" aria-label="Menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-2" id="legalNav">
+        <ul class="navbar-nav ms-auto me-lg-3 mb-2 mb-lg-0 gap-lg-1">
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#privacidad">Política de Privacidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#terminos">Términos y Normas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium" href="#eliminar-cuenta">Eliminar Cuenta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cabecera principal -->
+  <header id="inicio" class="bg-cinteja-gradient text-white py-5">
+    <div class="container py-2">
+      <div class="row align-items-center">
+        <div class="col-lg-9">
+          <span class="badge rounded-pill text-bg-light text-dark mb-3 px-3 py-2">
+            <i class="bi bi-shield-check text-cinteja me-1"></i> Documentación Oficial • Android
+          </span>
+          <h1 class="display-6 fw-bold mb-2">Centro Legal y de Privacidad de CinTeja</h1>
+          <p class="lead opacity-90 mb-3">
+            Información transparente sobre cómo protegemos tus datos, las normas de convivencia en reseñas y cómo gestionar o eliminar tu cuenta.
+          </p>
+          <p class="small mb-0 opacity-75">
+            <i class="bi bi-calendar3 me-1"></i> Última actualización: 25 de noviembre de 2026 &nbsp;|&nbsp;
+            <i class="bi bi-geo-alt me-1"></i> República de Chile
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+
+        <!-- Accesos rápidos -->
+        <div class="row g-3 mb-5">
+          <div class="col-md-4">
+            <a href="#privacidad" class="card legal-card h-100 text-decoration-none text-reset shadow-sm">
+              <div class="card-body d-flex align-items-start gap-3">
+                <i class="bi bi-lock-fill fs-3 text-cinteja"></i>
+                <div>
+                  <h2 class="h6 fw-bold mb-1">Política de Privacidad</h2>
+                  <p class="small text-body-secondary mb-0">Qué datos recopilamos, cómo los usamos y con qué servicios operamos.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#terminos" class="card legal-card h-100 text-decoration-none text-reset shadow-sm">
+              <div class="card-body d-flex align-items-start gap-3">
+                <i class="bi bi-file-earmark-text-fill fs-3 text-cinteja"></i>
+                <div>
+                  <h2 class="h6 fw-bold mb-1">Términos y Comunidad</h2>
+                  <p class="small text-body-secondary mb-0">Reglas de uso, moderación de spoilers, reportes y atribución legal.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#eliminar-cuenta" class="card legal-card h-100 text-decoration-none text-reset shadow-sm">
+              <div class="card-body d-flex align-items-start gap-3">
+                <i class="bi bi-person-x-fill fs-3 text-danger"></i>
+                <div>
+                  <h2 class="h6 fw-bold mb-1">Eliminar mi Cuenta</h2>
+                  <p class="small text-body-secondary mb-0">Pasos para borrar permanentemente tu cuenta y datos asociados.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- ======================================================= -->
+        <!-- SECCIÓN 1: POLÍTICA DE PRIVACIDAD                       -->
+        <!-- ======================================================= -->
+        <section id="privacidad" class="card legal-card shadow-sm mb-5">
+          <div class="card-body p-4 p-md-5">
+            <span class="badge badge-cinteja rounded-pill mb-2">Sección 1</span>
+            <h2 class="h3 fw-bold mb-2">Política de Privacidad</h2>
+            <div class="section-divider mb-4"></div>
+
+            <p>
+              En <strong>CinTeja</strong> respetamos tu privacidad y nos comprometemos a proteger tus datos personales.
+              Esta política describe qué información recopila la aplicación móvil <strong>CinTeja</strong>, con qué finalidad
+              se trata, qué proveedores tecnológicos participan y cuáles son tus derechos como usuario.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-3">1.1 Datos que recopilamos y su finalidad</h3>
+            <div class="table-responsive">
+              <table class="table table-bordered align-middle small">
+                <thead class="table-light">
+                  <tr>
+                    <th>Categoría</th>
+                    <th>Datos concretos</th>
+                    <th>Finalidad en CinTeja</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="fw-semibold">Identidad y perfil</td>
+                    <td>Nombre, correo electrónico, edad, teléfono (opcional) y foto de perfil.</td>
+                    <td>Crear y autenticar tu cuenta (Correo/Contraseña, Google Sign-In o Microsoft Login), personalizar tu perfil y aplicar el filtro automático de contenido +18 según tu edad.</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Ubicación (GPS)</td>
+                    <td>Coordenadas aproximadas/precisas en primer plano (solo con tu permiso).</td>
+                    <td>Detectar tu país para mostrar estrenos regionales (TMDB) y localizar cines comerciales e independientes cercanos en el mapa calculando distancias. <strong>No rastreamos tu ubicación en segundo plano.</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Contenido e interacción</td>
+                    <td>Reseñas, calificaciones, lista de favoritos, historial de películas vistas, preferencias de spoilers, reportes y usuarios bloqueados.</td>
+                    <td>Mostrar tu biblioteca personal, publicar comentarios comunitarios y respetar tus ajustes de privacidad anti-spoilers.</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Imágenes y cámara</td>
+                    <td>Fotos seleccionadas de galería o capturadas con la cámara (opcional).</td>
+                    <td>Subir tu foto de perfil o pósters de películas (administradores) y leer títulos de pósters localmente mediante reconocimiento óptico de texto (OCR).</td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">Diagnóstico y notificaciones</td>
+                    <td>Registros de errores, métricas anónimas de uso y token del dispositivo.</td>
+                    <td>Detectar y corregir cierres inesperados, mejorar el rendimiento de la app y enviar notificaciones push (sujeto a tu permiso en Android 13+).</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3 class="h5 fw-bold mt-4 mb-3">1.2 Proveedores y servicios de terceros</h3>
+            <p>
+              CinTeja <strong>no vende ni comercializa tus datos personales</strong>. Para operar sus funciones técnicas, la aplicación se comunica de forma cifrada (HTTPS/TLS) con los siguientes servicios:
+            </p>
+            <ul class="mb-3">
+              <li><strong>Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics y Cloud Messaging):</strong> gestión de sesiones, almacenamiento en la nube, diagnósticos de fallos y notificaciones.</li>
+              <li><strong>Google Maps Platform (Maps SDK y Places API):</strong> visualización de mapas y búsqueda de cines comerciales cercanos.</li>
+              <li><strong>The Movie Database (TMDB):</strong> consulta de cartelera, sinopsis, créditos, tráilers y fotogramas de películas.</li>
+              <li><strong>Groq API (Moderación automatizada):</strong> análisis en tiempo real del texto de las reseñas enviadas por los usuarios para detectar lenguaje ofensivo o spoilers antes de su publicación. No se envían datos personales sensibles (como teléfono o correo) para este análisis.</li>
+              <li><strong>Cloudinary:</strong> alojamiento seguro de imágenes de perfil y pósters cargados por los usuarios o administradores.</li>
+              <li><strong>Google ML Kit (OCR):</strong> reconocimiento de texto en imágenes procesado en el dispositivo.</li>
+              <li><strong>EmailJS:</strong> envío automático de correo electrónico de bienvenida al completar el registro.</li>
+            </ul>
+
+            <h3 class="h5 fw-bold mt-4 mb-3">1.3 Privacidad entre usuarios y seguridad</h3>
+            <p>
+              Tus datos de contacto privados (correo electrónico, teléfono y edad) están protegidos mediante reglas de seguridad de servidor en Cloud Firestore y <strong>no son visibles para otros clientes de la aplicación</strong>. En las reseñas públicas únicamente se muestra tu nombre visible y foto de perfil.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-3">1.4 Menores de edad</h3>
+            <p>
+              CinTeja incorpora controles automáticos para ocultar películas clasificadas para mayores de 18 años en cuentas cuyos titulares declaren ser menores de edad. Si eres padre, madre o tutor y consideras que un menor proporcionó datos sin autorización, puedes solicitar la eliminación inmediata escribiendo a nuestro correo de contacto.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-3">1.5 Conservación de datos y derechos del usuario</h3>
+            <p class="mb-0">
+              Conservamos tus datos únicamente mientras mantengas tu cuenta activa. En cualquier momento puedes acceder, rectificar o eliminar tu información desde la propia aplicación o mediante solicitud directa conforme a la legislación chilena vigente sobre protección de datos personales (Ley N° 19.628 y sus modificaciones).
+            </p>
+          </div>
+        </section>
+
+        <!-- ======================================================= -->
+        <!-- SECCIÓN 2: TÉRMINOS Y CONDICIONES / NORMAS COMUNIDAD    -->
+        <!-- ======================================================= -->
+        <section id="terminos" class="card legal-card shadow-sm mb-5">
+          <div class="card-body p-4 p-md-5">
+            <span class="badge badge-cinteja rounded-pill mb-2">Sección 2</span>
+            <h2 class="h3 fw-bold mb-2">Términos y Condiciones de Uso y Normas de la Comunidad</h2>
+            <div class="section-divider mb-4"></div>
+
+            <p>
+              El acceso y uso de la aplicación móvil <strong>CinTeja</strong> implica la aceptación plena de los presentes Términos y Condiciones y de nuestra Política de Privacidad. Si no estás de acuerdo con alguna de estas condiciones, debes abstenerte de utilizar la aplicación.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-2">2.1 Naturaleza del servicio</h3>
+            <p>
+              CinTeja es una plataforma informativa y comunitaria dedicada al descubrimiento de películas, cartelera comercial e independiente, localización de cines y publicación de reseñas. <strong>CinTeja no ofrece reproducción ni descarga de películas (streaming) ni gestiona venta directa de entradas.</strong> Los enlaces a tráilers oficiales redirigen a plataformas de terceros como YouTube.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-2">2.2 Registro y seguridad de la cuenta</h3>
+            <ul>
+              <li>El usuario se compromete a entregar información veraz al registrarse, especialmente respecto de su edad.</li>
+              <li>Cada usuario es responsable de resguardar sus credenciales y de toda actividad realizada desde su cuenta.</li>
+              <li>Queda prohibido intentar eludir controles de seguridad, automatizar peticiones masivas o acceder sin autorización a funciones administrativas.</li>
+            </ul>
+
+            <h3 class="h5 fw-bold mt-4 mb-2">2.3 Normas de la Comunidad y Contenido Generado por Usuarios (UGC)</h3>
+            <p>Para mantener una comunidad segura y respetuosa, está estrictamente prohibido publicar reseñas o contenidos que incluyan:</p>
+            <ul>
+              <li>Insultos, acoso, amenazas, discriminación, xenofobia o discurso de odio de cualquier tipo.</li>
+              <li>Contenido sexualmente explícito, violencia gráfica o promoción de actividades ilegales.</li>
+              <li>Spam, publicidad no autorizada, enlaces maliciosos o suplantación de identidad.</li>
+              <li>Divulgación malintencionada de giros argumentales o finales (<em>spoilers</em>) destinada a arruinar la experiencia de otros usuarios.</li>
+            </ul>
+
+            <div class="alert alert-secondary border-0 rounded-3 small mt-3">
+              <strong><i class="bi bi-robot me-1 text-cinteja"></i> Moderación activa, reportes y bloqueos:</strong>
+              Todas las reseñas pasan por un sistema automatizado de moderación (filtros léxicos e inteligencia artificial) que rechaza lenguaje ofensivo y detecta posibles spoilers para enmascararlos en la interfaz. Además, cualquier usuario puede <strong>reportar reseñas</strong> y <strong>bloquear a otros usuarios</strong> directamente desde la app para dejar de ver su contenido de inmediato. CinTeja se reserva el derecho de eliminar reseñas o suspender cuentas que incumplan estas normas de forma grave o reiterada.
+            </div>
+
+            <p class="mt-3">
+              El usuario conserva la autoría de las reseñas que publica, otorgando a CinTeja una licencia gratuita, no exclusiva y revocable para mostrarlas dentro de la aplicación mientras permanezcan publicadas.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-2">2.4 Información de cines y horarios</h3>
+            <p>
+              La información de cines comerciales proviene de Google Maps Platform, mientras que los datos de cines independientes son administrados en la plataforma. CinTeja ofrece estos datos de manera referencial y no garantiza la exactitud en tiempo real de horarios ni disponibilidad de funciones.
+            </p>
+
+            <h3 class="h5 fw-bold mt-4 mb-2">2.5 Propiedad intelectual y atribución obligatoria</h3>
+            <p>
+              El código fuente, diseño e identidad visual de CinTeja pertenecen a sus desarrolladores. Los pósters, fotogramas, sinopsis y tráilers pertenecen a sus respectivos estudios y distribuidoras, exhibiéndose exclusivamente con fines informativos.
+            </p>
+
+            <div class="p-3 rounded-3 bg-body-tertiary tmdb-box my-3">
+              <p class="fw-semibold mb-1">Atribución oficial de The Movie Database (TMDB):</p>
+              <p class="mb-0 fst-italic">
+                "This product uses the TMDB API but is not endorsed or certified by TMDB."
+              </p>
+            </div>
+
+            <h3 class="h5 fw-bold mt-4 mb-2">2.6 Limitación de responsabilidad y legislación aplicable</h3>
+            <p class="mb-0">
+              La aplicación se ofrece "tal cual" (<em>as is</em>) y según disponibilidad técnica, sin asumir responsabilidad por interrupciones temporales de conectividad o servicios de terceros (Firebase, TMDB, Google Maps, Groq o Cloudinary). Podemos actualizar estos términos cuando incorporemos nuevas funciones, indicando siempre la fecha de última modificación. Estos términos se rigen por las leyes vigentes de la <strong>República de Chile</strong>.
+            </p>
+          </div>
+        </section>
+
+        <!-- ======================================================= -->
+        <!-- SECCIÓN 3: ELIMINACIÓN DE CUENTA Y DATOS (GOOGLE PLAY)  -->
+        <!-- ======================================================= -->
+        <section id="eliminar-cuenta" class="card legal-card shadow-sm mb-5 border-danger-subtle">
+          <div class="card-body p-4 p-md-5">
+            <span class="badge text-bg-danger rounded-pill mb-2">Sección 3 • Gestión de Datos</span>
+            <h2 class="h3 fw-bold mb-2">Eliminación de Cuenta y Datos</h2>
+            <div class="section-divider mb-4" style="background: var(--cinteja-accent);"></div>
+
+            <p>
+              Puedes eliminar tu cuenta de <strong>CinTeja</strong> y los datos personales asociados en cualquier momento mediante cualquiera de las siguientes dos vías:
+            </p>
+
+            <div class="row g-4 my-2">
+              <!-- Opción 1: Desde la app -->
+              <div class="col-md-6">
+                <div class="p-4 rounded-4 bg-body-tertiary h-100 border">
+                  <h3 class="h6 fw-bold mb-3">
+                    <i class="bi bi-phone-fill text-cinteja me-2"></i>Opción 1: Directamente desde la app (Inmediata)
+                  </h3>
+                  <ol class="small mb-0 ps-3">
+                    <li class="mb-2">Abre la aplicación <strong>CinTeja</strong> e inicia sesión en tu cuenta.</li>
+                    <li class="mb-2">Abre el menú lateral (Navigation Drawer) e ingresa a <strong>Configuración</strong>.</li>
+                    <li class="mb-2">Desplázate hasta la sección <strong>Cuenta</strong> y presiona <strong>"Eliminar mi cuenta"</strong>.</li>
+                    <li>Confirma la acción (por seguridad, Firebase puede solicitar verificar tu sesión reciente).</li>
+                  </ol>
+                </div>
+              </div>
+
+              <!-- Opción 2: Vía web / correo -->
+              <div class="col-md-6">
+                <div class="p-4 rounded-4 bg-body-tertiary h-100 border d-flex flex-column justify-content-between">
+                  <div>
+                    <h3 class="h6 fw-bold mb-3">
+                      <i class="bi bi-envelope-fill text-cinteja me-2"></i>Opción 2: Solicitud vía correo electrónico
+                    </h3>
+                    <p class="small mb-3">
+                      Si ya desinstalaste la aplicación o no puedes acceder a tu cuenta, envíanos un correo <strong>desde la misma dirección registrada en CinTeja</strong> indicando tu solicitud de eliminación. Procesaremos tu baja en un plazo máximo de <strong>7 días hábiles</strong>.
+                    </p>
+                  </div>
+                  <a
+                    href="mailto:franciscourbinacaceres@gmail.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20-%20CinTeja&body=Hola%20equipo%20de%20CinTeja%2C%0A%0ASolicito%20la%20eliminaci%C3%B3n%20permanente%20de%20mi%20cuenta%20y%20datos%20asociados%20al%20siguiente%20correo%20electr%C3%B3nico%3A%20%5Bescribe%20tu%20correo%20aqu%C3%AD%5D.%0A%0AGracias."
+                    class="btn btn-cinteja btn-sm rounded-pill px-3 align-self-start"
+                  >
+                    <i class="bi bi-send me-1"></i> Solicitar eliminación por correo
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="h6 fw-bold mt-4 mb-2">¿Qué datos se eliminan y cuáles pueden conservarse?</h3>
+            <ul class="small mb-0">
+              <li class="mb-1"><strong>Datos eliminados permanentemente:</strong> credenciales de acceso en Firebase Authentication, perfil de usuario (nombre, correo, teléfono, edad, foto URL), preferencias de privacidad, lista de usuarios bloqueados, películas favoritas e historial de películas vistas.</li>
+              <li><strong>Registros de moderación y seguridad:</strong> los reportes de contenido generados para proteger a la comunidad o registros técnicos agregados de fallos (Crashlytics/Analytics sin identificación personal directa) pueden conservarse temporalmente para prevención de abuso y estabilidad del sistema.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="card legal-card shadow-sm mb-4">
+          <div class="card-body p-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+            <div>
+              <h2 class="h5 fw-bold mb-1">¿Tienes dudas o consultas legales?</h2>
+              <p class="small text-body-secondary mb-0">
+                Escríbenos para consultas sobre privacidad, reportes de propiedad intelectual o soporte técnico.
+              </p>
+            </div>
+            <a href="mailto:franciscourbinacaceres@gmail.com?subject=Consulta%20Legal%20-%20CinTeja" class="btn btn-outline-secondary rounded-pill px-4 text-nowrap">
+              <i class="bi bi-envelope me-2"></i>franciscourbinacaceres@gmail.com
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="bg-body border-top py-4 mt-5">
+    <div class="container text-center small text-body-secondary">
+      <p class="mb-1 fw-semibold text-body">CinTeja App</p>
+      <p class="mb-1">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+      <p class="mb-0">&copy; 2026 CinTeja. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Soporte automático y manual de Modo Claro / Oscuro -->
+  <script>
+    (function () {
+      const htmlEl = document.documentElement;
+      const toggleBtn = document.getElementById('themeToggle');
+      const themeIcon = document.getElementById('themeIcon');
+
+      function applyTheme(theme) {
+        htmlEl.setAttribute('data-bs-theme', theme);
+        themeIcon.className = theme === 'dark' ? 'bi bi-sun-fill' : 'bi bi-moon-stars';
+      }
+
+      const savedTheme = localStorage.getItem('cinteja-legal-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
+
+      toggleBtn.addEventListener('click', () => {
+        const next = htmlEl.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('cinteja-legal-theme', next);
+        applyTheme(next);
+      });
+    })();
+  </script>
+</body>
+</html>
